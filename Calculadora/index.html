@@ -7,68 +7,74 @@
     <title>Calculadora</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
     <body>
+
         <div id="conteiner">
             
             <div id="calculadora">
+
                 <div> <h1 id="display">0</h1> </div>  
+
                     <div id="botoes">
+
                         <div id="numeros-botoes">
+
                             <div id="one-two-tree">
                                 <button value="1" id="botao" onclick="App.AddNumber(1)">1</button>
                                 <button id="botao" onclick="App.AddNumber(2)">2</button>
                                 <button id="botao" onclick="App.AddNumber(3)">3</button>
                                 
                             </div>
-        
+
                             <div id="four-five-six">
                                 <button id="botao" onclick="App.AddNumber(4)">4</button>
                                 <button id="botao" onclick="App.AddNumber(5)">5</button>
                                 <button id="botao" onclick="App.AddNumber(6)">6</button>
-                               
                             </div>
         
                             <div id="eigth-nine-ten">
                                 <button id="botao" onclick="App.AddNumber(7)">7</button>
                                 <button id="botao" onclick="App.AddNumber(8)">8</button>
                                 <button id="botao" onclick="App.AddNumber(9)">9</button>
-                                
                             </div>
+
                             <div id="zero-dot">
                                 <button id="botao0">0</button>
                                 <button id="botao">,</button>
-                                
                             </div>
+            
                         </div>
 
                         <div id="simbolos1">
+
                             <div id="simbol">
                                 <button id="botao-operator" onclick="App.AddNumber('+')">+</button>
-                                
                                 <button id="botao-operator" onclick="App.AddNumber('-')">-</button>
                                 <button id="botao-igual" onclick="App.Calcular()">=</button>
                             </div>
                             
                         </div>
+
                         <div id="simbolos2">
 
                             <div id="simbol">
                                 <button id="botao-operator" onclick="App.AddNumber('*')">*</button>   
                                 <button id="botao-operator" onclick="App.AddNumber('/')">/</button>
-                            </div>
-                            <div id="simbol">
                                 <button id="botao" onclick="App.AddNumber(3.14)">(π)</button>
-                                
-                            </div>
-                            <div id="simbol">
                                 <button id="botao" onclick="App.Clear(true)">Del</button>
                             </div>
+                            
                         </div>
+
                     </div>
                 
                 </div>
+
             </div>
+
         </div>
+
     <script src="index.js"></script>
     </body>
 </html>

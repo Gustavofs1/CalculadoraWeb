@@ -51,19 +51,6 @@ body {
     align-items: center;
 }
 
-#one-two-tree {
-    flex-direction: row;
-
-}
-
-#four-five-six {
-    flex-direction: row;
-}
-
-#eigth-nine-ten {
-    flex-direction: row;
-}
-
 .res {
     background-color: rgb(67, 68, 68);
     display: flex;
